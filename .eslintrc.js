@@ -1,7 +1,7 @@
 module.exports = {
   globals: {
     React: true,
-    JSX: true,
+    JSX: true
   },
   extends: [
     'airbnb',
@@ -14,6 +14,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['import', 'prettier', 'react-hooks', 'react'],
   rules: {
+    'arrow-body-style': 0,
     'comma-dangle': 0,
     'consistent-return': 1,
     import: 0,
@@ -39,7 +40,7 @@ module.exports = {
     ],
     'no-restricted-exports': 0,
     'no-use-before-define': 0,
-    'prettier/prettier': 0, // turn of, use prettier to format code instead eslint
+    'prettier/prettier': 1,
     'react-hooks/rules-of-hooks': 2,
     'react/button-has-type': 1,
     'react/destructuring-assignment': 0,

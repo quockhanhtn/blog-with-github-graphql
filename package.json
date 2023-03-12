@@ -11,6 +11,9 @@
     "lint:fix": "yarn format && next lint --fix --dir src"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.10",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
